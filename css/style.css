@@ -29,21 +29,23 @@ body{
 .bg-red{
     background-color: red;
     color: white;
-    font-size: 10px;
+    font-size: 8px;
+    padding: 3px;
 }
 
 .bg-green{
     background-color: #00875A;
     color: white;
-    font-size: 10px;
+    font-size: 8px;
     position: absolute;
     left: 25px;
-    top: 380px;  
+    top: 375px;
+    padding: 3px;  
 }
 .bg-green:nth-child(3){
     position: absolute;
     left: 0;
-    top: 380px;
+    top: 375px;
 }
 
 /* PRODUCT */
@@ -62,7 +64,7 @@ body{
 
 .discount { 
     position: absolute;
-    top: 380px;
+    top: 375px;
     left: 0;
 }
 
@@ -101,6 +103,10 @@ body{
     line-height: 30px;
 }
 
+.show{
+    display: inline-block;
+}
+
 .hide{
     display: none;
 }
@@ -110,5 +116,5 @@ body{
 }
 
 .product:hover .hide{
-    display: block;
+    display: inline-block;
 }
